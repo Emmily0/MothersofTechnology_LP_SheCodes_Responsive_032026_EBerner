@@ -173,7 +173,11 @@ a {
         margin: 0;
     }
 
+    .footer-h4-project {
+        margin-left: 5px;
+    }
     .project-overview {
         margin-right: 8px;
+        margin-left: 5px;
     }
     }
