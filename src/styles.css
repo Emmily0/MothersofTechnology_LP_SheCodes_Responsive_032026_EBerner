@@ -47,7 +47,7 @@ header a {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -57,6 +57,51 @@ header a {
     background: #5d5fef;
 }
 
+main {
+    background-color: white;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.grid-2-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+    align-items: center;
+
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 1.5;
+    color: #5D5FEF;
+    margin: 18px 0;
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    color: black;
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+main p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15.5px;
+    line-height: 1.5;
+    color: black;
+    opacity: 0.5;
+}
+
 footer {
     font-weight: 300;
     font-size: 14px;
@@ -64,18 +109,20 @@ footer {
     background-image: linear-gradient(#22245dac), url('../media/mothersoftechnology-footer-picture3-lp-2026.png');   
     background-repeat: no-repeat;
     background-size: initial;
-    padding: 50px 0;
+    padding-bottom: 30px;
 }
 
 section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
-.grid {
+.grid-3-columns-with-first-narrow {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 64px;
+    padding: 40px 0;
 }
 
 footer h4 {
@@ -106,9 +153,9 @@ a {
 }
 
 .footer-credit {
-    margin: 30px 100px 0px;
+    margin: 10px 100px 0px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     opacity: 0.6;
     line-height: 1.5;
 }
@@ -147,46 +194,48 @@ a {
 
     }
 
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    main h2 {
+        font-size: 19px;
+    }
+
+    main h3 {
+        font-size: 12px;
+    }
+
+    main p {
+        font-size: 13.5px;
+    }
+
     footer {
         font-size: 12px;
         background-size: auto;
         background-repeat: no-repeat;
-        padding: 35px 0;
+        padding-bottom: 30px;
     }
 
     section {
-        margin: 0 15px;
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 2fr 2fr;
-        grid-gap: 10px;
+        margin: 20px 30px 0px;
+        padding: 30px;
     }
 
     footer h4 {
         font-size: 14px;
         font-weight: 600;
-        padding: 0px 8px 0px 0px;
-    }
-
-    footer p {
-        margin-right: 8px;
     }
 
     footer li {
         list-style: none;
         margin: 0;
     }
-
-    .footer-h4-project {
-        margin-left: 5px;
-    }
-    .project-overview {
-        margin-right: 8px;
-        margin-left: 5px;
-    }
     .footer-credit {
-        margin: 30px 30px 0px;
+        margin: 0 60px;
+        text-align: left;
+        font-size: 11px;
+
     }
 }
