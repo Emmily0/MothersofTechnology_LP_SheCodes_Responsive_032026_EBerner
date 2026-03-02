@@ -91,6 +91,7 @@ footer li {
     list-style: none;
     margin: 0;
     padding: 0;
+    opacity: 0.9;
 }
 
 footer p {
@@ -105,8 +106,16 @@ footer p {
 a {
     color: #ffffff;
     font-weight: 500;
+    opacity: 0.9;
 }
 
+.footer-credit {
+    margin: 30px 100px 0px;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+    line-height: 1.5;
+}
 
 @media (max-width: 960px) {
     header {
@@ -180,4 +189,6 @@ a {
         margin-right: 8px;
         margin-left: 5px;
     }
+    .footer-credit {
+        margin: 30px 30px 0px;
     }
