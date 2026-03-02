@@ -160,12 +160,13 @@ a {
 
     .grid {
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 1fr 2fr 2fr;
     }
 
     footer h4 {
         font-size: 14px;
         font-weight: 600;
+        padding: 0px 10px 0px 0px;
     }
 
     .wikipedia {
