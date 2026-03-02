@@ -75,6 +75,7 @@ section {
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 
 footer h4 {
@@ -95,12 +96,7 @@ footer li {
 }
 
 footer p {
-    margin-right: 10px;
     opacity: 0.9;
-}
-
-.project-overview {
-    margin: 0px 50px 0px 0px;
 }
 
 a {
@@ -165,6 +161,7 @@ a {
     .grid {
         display: grid;
         grid-template-columns: 1fr 2fr 2fr;
+        grid-gap: 10px;
     }
 
     footer h4 {
@@ -192,3 +189,4 @@ a {
     .footer-credit {
         margin: 30px 30px 0px;
     }
+}
