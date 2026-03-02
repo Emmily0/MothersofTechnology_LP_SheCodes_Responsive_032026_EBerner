@@ -79,6 +79,7 @@ section {
 .wikipedia {
     font-style:italic ;
     font-size: 11px;
+    margin-right: 0px;
 }
 
 footer h4 {
@@ -98,8 +99,12 @@ footer li {
 }
 
 footer p {
-    margin-right: 20px;
+    margin-right: 10px;
     opacity: 0.9;
+}
+
+.project-overview {
+    margin: 0px 50px 0px 0px;
 }
 
 a {
@@ -149,6 +154,15 @@ a {
         padding: 35px 0;
     }
 
+    section {
+        margin: 0 25px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
     footer h4 {
         font-size: 14px;
         font-weight: 600;
@@ -157,4 +171,12 @@ a {
     .wikipedia {
         font-size: 10px;
     }
-}
+
+    footer p {
+        margin-right: 10px;
+    }
+
+    .project-overview {
+        margin-right: 20px;
+    }
+    }
