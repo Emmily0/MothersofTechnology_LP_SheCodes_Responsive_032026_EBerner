@@ -195,6 +195,7 @@ section.secondary {
     margin: 10px auto;
     text-align: left;
     padding: 0 30px;
+    display: block;
 }
 
 .map-info {
@@ -258,7 +259,7 @@ section.secondary {
   }
   
 .video {
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
     aspect-ratio: 21 / 9;
     width: 100%;
     height: 370px;
@@ -279,7 +280,7 @@ section.secondary {
 .invention-photo {
     height: 370px;
     width: 100%;
-    object-fit: fill;
+    object-fit: initial;
     display: block;
 }
 
@@ -290,6 +291,7 @@ section.secondary {
     line-height: 1.1;
     margin: 10px auto;
     text-align: left;
+    display: block;
 }
 
 footer {
@@ -455,9 +457,10 @@ a {
         color: gray;
         font-style: italic;
         line-height: 1.1;
-        margin: 15px auto;
+        margin: 15px 0;
         text-align: left;
         padding: 0 30px 0 30px;
+        display: block;
     }
 
     .map-info {
@@ -480,14 +483,23 @@ a {
 
      .video {
       margin: 0 auto 30px;
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 1/1;
         width: 100%;
         display: block;
+     }
+
+     .video-card-title {
+        margin: 30px 0 30px 0;
+     }
+
+     .video-card-subtitle {
+        margin: 50px 0 30px;
      }
 
      .invention-photo {
         width: 100%;
         display: block;
+        object-fit: initial;
      }
 
       .picture-credit {
@@ -497,6 +509,7 @@ a {
         line-height: 1.1;
         margin: 10px auto;
         text-align: left;
+        display: block;
     }
 
     footer {
