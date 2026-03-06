@@ -482,10 +482,7 @@ a {
       }
 
      .video {
-      margin: 0 auto 30px;
-        aspect-ratio: 1/1;
-        width: 100%;
-        display: block;
+        aspect-ratio: 16 / 9;
      }
 
      .video-card-title {
@@ -500,6 +497,7 @@ a {
         width: 100%;
         display: block;
         object-fit: contain;
+        height: auto;
      }
 
       .picture-credit {
